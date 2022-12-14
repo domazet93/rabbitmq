@@ -2,7 +2,7 @@ Just scratching a surface of RabbitMQ and messaging concepts using amqplib nodeJ
 
 ### Prerequisites
 ```
-Node 18
+Node >=18.3
 ```
 ### Installl
 ```
