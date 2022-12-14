@@ -25,6 +25,9 @@ const {
     channel.sendToQueue("jobs", Buffer.from(message));
 
     console.log(`Job sent successfully ${JSON.parse(message).id}`);
+
+    await channel.close();
+    await connection.close();
   } catch (err) {
     console.log("connect error", err)
   }
