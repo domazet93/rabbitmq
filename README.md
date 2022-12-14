@@ -1,5 +1,9 @@
 Just scratching a surface of RabbitMQ and messaging concepts using amqplib nodeJS client and RabbitMQ on Docker.
 
+### Prerequisites
+```
+Node 18
+```
 ### Installl
 ```
 yarn install

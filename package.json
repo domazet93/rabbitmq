@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Use amqplib node client to publish and consume messages",
   "main": "index.js",
+  "engines": {
+    "node": "=16"
+  },
   "scripts": {
     "publish": "node publisher.js",
     "consume": "node consumer.js"

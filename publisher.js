@@ -1,6 +1,7 @@
 const amqp = require("amqplib");
 const { parseArgs } = require("node:util");
 
+// Stability: 1 - Experimental
 // https://nodejs.org/api/util.html#utilparseargsconfig
 const {
   values: { message },
